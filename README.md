@@ -161,23 +161,24 @@ app-desafio-sebrae/
 ```
 
 ## Tecnologias e dependências
-- **Kotlin** 2.4.0
-- **Android Gradle Plugin (AGP)** 9.1.1
-- **Jetpack Compose** (BOM 2026.05.01)
+- **Kotlin** 2.4.10
+- **Android Gradle Plugin (AGP)** 9.3.2
+- **KSP** 2.3.6
+- **Jetpack Compose** (BOM 2026.08.00)
 - **Material 3** com Material Icons Extended
-- **Navigation Compose** 2.9.8
+- **Navigation Compose** 2.10.0
 - **Room** 2.8.4
-- **Hilt** 2.59.2 (injeção de dependência)
-- **Firebase Auth** e **Firebase Firestore** (via Firebase BOM 34.14.1)
+- **Hilt** 2.60.1 (injeção de dependência)
+- **Firebase Auth** e **Firebase Firestore** (via Firebase BOM 34.18.0)
 - **Coroutines** 1.11.0
-- **Vico** 3.2.2 (gráficos e visualizações)
+- **Vico** 3.3.0 (gráficos e visualizações)
 - **JUnit 4** e Mockito para testes unitários
 
 As versões são centralizadas em `gradle/libs.versions.toml`.
 
 ## Pré-requisitos
 - JDK 17
-- Android SDK (compileSdk 36, minSdk 26, targetSdk 36)
+- Android SDK (compileSdk 37, minSdk 26, targetSdk 37)
 - Android Studio atualizado
 
 ## Configuração do ambiente
