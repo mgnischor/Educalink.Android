@@ -37,12 +37,12 @@ kotlin { jvmToolchain(17) }
 
 android {
   namespace = "tech.datatower.sebrae.desafio"
-  compileSdk = 36
+  compileSdk = 37
 
   defaultConfig {
     applicationId = "tech.datatower.sebrae.desafio"
     minSdk = 26
-    targetSdk = 36
+    targetSdk = 37
     versionCode = vMajor * 1000000 + vMinor * 10000 + vPatch * 100 + vBuild
     versionName = "$vMajor.$vMinor.$vPatch" + if (vBuild > 0) ".$vBuild" else ""
     buildConfigField("boolean", "FIREBASE_REMOTE_BOOTSTRAP_ENABLED", "true")
